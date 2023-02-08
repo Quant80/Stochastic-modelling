@@ -28,13 +28,17 @@ a. Initially, the client seems to be looking for a very short maturity for her d
 Team member A needs to calibrate a classic Heston (1993) model (without
 jumps) to the observed market prices for both call and put options. Use the Lewis
 (2001) approach with a regular MSE error function. For the moment, consider a
-MScFE | © 2022 - WorldQuant University – All rights reserved. Group Work Project 1 | PAGE 1
+
+
+
 constant annual risk-free rate of 1.50%. Assume 1 year has 250 trading days. For
 the case of put options, note that you can either:
+
 i. Use the Lewis (2001) closed form for put options that you have on the
 paper: Lewis, Alan L. "A simple option formula for general jump-diffusion
 and other exponential Lévy processes." (2001)
-https://papers.ssrn.com/sol3/papers.cfm?abstract_id=282110
+
+
 ii. (preferred) Use put-call parity with the closed-form solution for the call
 option.
 As part of the pricing team, Team member A needs to report the parameter
@@ -42,28 +46,33 @@ values resulting from the calibration, describe the whole process for the other
 team members to know (to which maturity (-ies) you calibrated the model, error
 function considered,…), and briefly discuss the final calibration including graphs
 that properly illustrate the fit of the calibration.
+
 b. In order to double-check the different model parameters resulting from a
 calibration, Team member B will repeat the same process as Team member A,
 but using the Carr-Madan (1999) pricing approach to calibrate the Heston (1993)
 model. Make sure that you repeat all the tasks in (a), including a discussion on
 why (or why not) you obtain similar values for the different parameters as via
 Lewis (2001). You can use put-call parity as well to calibrate to put option prices.
+
 c. Using the calibrated parameters you consider appropriate from the previous
 tasks, Team member C will price the Asian call option for the client. In this case,
 the client wants an ATM Asian option with 20 days maturity.
 As team member in charge of pricing for the client, make sure that you:
+
 i. Obtain the ‘fair price’ of the instrument using Monte-Carlo methods in a
 risk-neutral setting. Make sure you perform enough simulations in
 Monte-Carlo. (Hint: You may want to check some of the Derivative Pricing
 material for this)
+
 ii. As part of the bank’s profit, you charge a 4% fee on the price to obtain the
 final price that the client will end up paying. Make sure to clearly state this
 in your report.
+
 iii. Include in your report a brief but complete non-technical description (that
 a client can understand) on the process you undertook for pricing,
 including calibration steps and choices that you consider relevant.
 Note: For Groups of 2, please use the responsibilities for Members A and C only.
-MScFE | © 2022 - WorldQuant University – All rights reserved. Group Work Project 1 | PAGE 2
+
 Step 2
 Unfortunately, the client seems hesitant about the short maturity considered in step 1.
 After giving it some thought, she thinks that an instrument with 60 days maturity would
@@ -173,9 +182,11 @@ grammatical errors or typos.
 ● Be an organized,
 well-structured, and easy-to-read
 document.
+
 ● Include proper citations and a
 bibliography in MLA format.
 Non-technical reports contain 3 parts:
+
 1) clear explanation of results;
 2) the recommended course of action
 that follows; and
@@ -185,4 +196,4 @@ Note: AVOID all references to model
 names, algorithms, and unnecessary
 details. Instead, focus on the investment
 decision.
-MScFE | © 2022 - WorldQuant University – All rights reserved. Group Work Project 1 | PAGE 5
+
